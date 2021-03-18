@@ -1,29 +1,44 @@
 #rayck
 {
-	width: 320px;
-	height: 520px;
-	background-color: #14191b;
-	margin: 0 auto;
-	top: 20px;
+	width: 620px;
+	height: 420px;
+	background-color: #f80909;
+	top: 10px;
 	position: relative;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(228, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
+.botao1  {
+    position:relative;
+    top:20px;
+    left:50px;
+    margin:10px;
+    padding:10px;
+            }
 
-	
-}
-#button
-{
-    width: 820px;
-	height: 520px;
-	background-color: #0f91e7;
-	margin: 0 auto;
-	top: 20px;
-	position:center;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(233, 15, 15, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            .botao2  {
+                position:relative;
+                top:20px;
+                left:60px;
+                margin:10px;
+                padding:1px;
+                cursor:pointer;
+                border-radius: 100px;
+                font-size: smaller;
+               
+                
 
+                        }
 
-}
+                        .botao3  {
+                            position:relative;
+                            top:20px;
+                            left:50px;
+                            margin:10px;
+                            padding:10px;
+                        
+
+                                    }
+
