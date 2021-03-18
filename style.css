@@ -1,32 +1,40 @@
 #rayck
 {
-	width: 620px;
-	height: 420px;
-	background-color: #f80909;
+	width: 520px;
+	height: 40px;
+	background-color: #979797;
 	top: 10px;
 	position: relative;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(228, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+	box-shadow: 0 4px 8px 0 rgba(248, 3, 3, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 
 }
 .botao1  {
     position:relative;
-    top:20px;
-    left:50px;
+    top:-48px;
+    left:10px;
     margin:10px;
     padding:10px;
+    border-radius: 100px;
+    font-size: smaller;
+    font-style: oblique;
+    
+   
             }
 
             .botao2  {
                 position:relative;
-                top:20px;
-                left:60px;
+                top:-90px;
+                left:160px;
                 margin:10px;
                 padding:1px;
-                cursor:pointer;
                 border-radius: 100px;
                 font-size: smaller;
+                font-style: oblique;
+
                
                 
 
@@ -34,11 +42,22 @@
 
                         .botao3  {
                             position:relative;
-                            top:20px;
-                            left:50px;
+                            top:-132px;
+                            left:280px;
                             margin:10px;
                             padding:10px;
-                        
-
+                            border-radius: 100px;
+                            font-size: smaller;
+                            font-style: oblique;
+                
                                     }
+                                    .botao4  {
+                                        position:relative;
+                                        top:-183px;
+                                        left:410px;
+                                        margin:10px;
+                                        padding:10px;
+                                        border-radius: 100px;
+                                        font-size: smaller;
+                                        font-style: oblique;
 
