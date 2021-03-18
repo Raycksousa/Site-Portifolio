@@ -1,8 +1,29 @@
-
-.linkedin
+#rayck
 {
- 
- background:rgb(209, 25, 25);
+	width: 320px;
+	height: 520px;
+	background-color: #14191b;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(228, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+	
+}
+#button
+{
+    width: 820px;
+	height: 520px;
+	background-color: #0f91e7;
+	margin: 0 auto;
+	top: 20px;
+	position:center;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(233, 15, 15, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
