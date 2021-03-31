@@ -1,10 +1,8 @@
-ar hamburguer = Document.querySelector(".hamburguer");
-
-hamburguer.addEventlistener ("click", function(){
-     Document .querySelector(".sidebar").classList.toggle("show-menu")
-
-
+function menuOnClick() {   
+document.getElementById("menu-bar").classList.toggle("change");
+document.getElementById("nav").classList.toggle("change");
+document.getElementById("menu-bg").classList.toggle("change-bg");
 
 
+}
 
-});
