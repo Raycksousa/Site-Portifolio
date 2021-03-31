@@ -1,193 +1,153 @@
+body{
+font-family: 'Roboto' ,sans-serif ;
+background-color:#000000 ;
+margin:0;
+padding:0;
+}
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+#menu{
+    z-index: 2;
+}
 
+#menu-bar{
+    width: 45px;
+    height:40px ;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
 
-*{
-   
-    margin:0;
-    padding:0;
+.bar{
+
+    height: 5px;
+    width: 100%;
+    background-color: #dc052d;
+    display: block;
+    border-radius: 5px;
+    transition: o.3s ease;
+
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+.nav {
+    transition: 0,3s ease;
+    display: none;
+    
+}
+.nav ul {
+   padding: o 22px; 
+}
+.nav li {
     list-style: none;
+    padding: 12px 0;
+
+}
+.nav li a {
+    color: white;
+    font-size: 20px;
     text-decoration: none;
 }
-
-.hamburguer
-background-color: rgba(117, 117, 117, 0.123);
-width: 2rem;
-height: 2rem;
-position: fixed;
-z-index: 100;
-right: 2rem;
-top:2rem ;
-display: flex;
-flex-direction: column;
-justify-content:space-evenly ;
-cursor: pointer;
+.nav  li a:hover{
+    font-weight: bold;
+}
+.menu-bg,#menu{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.menu-bg {
+z-index: 1;
+width: 0;
+height: 0;
+margin: 30px 0 20px 20px;
+background: radial-gradient(circle,#dc052d,#dc052d);
+border-radius: 50%;
+transition: 0.3s ease;
+}
+.change{
+    display: block;
+}
+.change .bar{
+    background-color: white;
 
 }
-
-.line{
-    width: 100%;
-    height: .1rem;
-    background-color: rgb(247, 247, 242);
-    box-shadow: 0.1rem, 1px;
-    
-
-
-
+.change #bar1{
+    transform: translateY(4px) rotate(-45deg);
 }
-
-header{
-width: 100%;
-height: 100%;
-overflow:hidden;
-position: relative;
-overflow: hidden;
-
+.change #bar2{
+    opacity: 0;
 }
-
-.img-wrapper{
-
-width: 100%;
-height: 100%;
-overflow: hidden;
-background-color:rgb(243, 240, 240);
-
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+.change-bg{
+    width: 520px;
+    height:460px ;
+    transform:translate(-60px, -30px) ;
 }
 
 .img-wrapper img{
 
-    width: 100%;
-    height: 100%;  
-    object-fit: cover; 
-    opacity:0.98; 
+  width: 62% ;
+  background-image: url(img/fundo.jpg);
+  background-position: block;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
 
 
 }
+
+
+
+
 .banner{
 
-position: absolute;
-left:15% ;
-
-top:60% ;
-bottom: 10px; ;
-}
-
-.banner h1 {
-color: rgb(236, 231, 231);
-font-size:2.5rem ;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 200;
-text-shadow: .3rem,4rem 2px rgb(0,0,0,4);
-margin-bottom: 2rem;
-
-}
-
-.banner p {
- 
-    color: rgb(236, 231, 231);
-font-size:2.5rem ;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 200;
-text-shadow: .3rem,4rem 2px rgb(0,0,0,4);
-margin-bottom: 2rem;
-}
-
-.banner button {
-font-family: "Muli",serif;
-color: rgb(245, 238, 238);
-font-size: 1,2rem;
-background: #c31432;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #9008f1, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #9606fd, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-padding:1rem 3rem;
-border:nome ;
-border-radius:5px;
-cursor: pointer;
-}
-
-.banner button:hover{
-
-opacity: 0,8;
-color: rgb(0, 0, 0);
-
-}
-.sidebar{
-
-width:20rem ;
-height: 100vh;
-background-color: rgba(245, 245, 245, 0);
-position: fixed;
-top: 0;
-right:0rem ;
-transition: all;
-
-}
-.sidebar.show-menu{
-right: 0;
-
-}
-.show-menu .hamburguer{
-
-right: 0;
-
-}
-
-.sidebar .hamburguer{
-
-right: 15rem;
-
-
-}
-
-.menu{
-
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50% );
-
-}
-
-.menu-item{
-
-text-align: center;
-margin-bottom: .8rem;
+    left:15% ;
     
-}
-.menu-link{
+    top:60% ;
+    bottom: 10px; ;
+    }
+    
+    .banner h1 {
+    color: rgb(236, 231, 231);
+    font-size:2.5rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    text-shadow: .3rem,4rem 2px rgb(0,0,0,4);
+    margin-bottom: 2rem;
+    
+    }
+    
+    .banner p {
+     
+        color: rgb(236, 231, 231);
+    font-size:2.5rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    text-shadow: .3rem,4rem 2px rgb(0,0,0,4);
+    margin-bottom: 2rem;
+    }
+    
+    .banner button {
+    font-family: "Muli",serif;
+    color: rgb(245, 238, 238);
+    font-size: 1,2rem;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9008f1, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9606fd, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:1rem 3rem;
+    border:nome ;
+    border-radius:5px;
+    cursor: pointer;
+    }
+   
 
-font-family:Arial, Helvetica, sans-serif ;
-font-size: .6rem;
-color: #f80b33;
-
-}
-
-.social-media{
 
 
-background-color: rgba(169, 9, 243, 0.993);
-position:absolute ;
-bottom:2rem ;
-width:100% ;
-display:flex ;
-justify-content: space-around;
-
-}
-
-.social-media i{
-
-color: #080808;
-height: 2.5rem;
-width: 2.5rem;
-font-size: 2rem;
-align-items: centerauto;
-transition: background-color 1s ;
-
-}
-.social-media i{
-
-cursor: pointer;
-background-color: #8b03f304;
-align-items:overflow;
-
-}
