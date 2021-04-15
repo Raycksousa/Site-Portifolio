@@ -197,7 +197,9 @@ transition: 0.3s ease;
 }
 .conhecimento-css{
 
-   grid
+   grid-column: 11/4;
+   grid-row: 13/5;
+}
 
 
 
