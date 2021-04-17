@@ -149,11 +149,11 @@ transition: 0.3s ease;
 }
 
 .banner p{
-    font-size: 40px;
+    font-size: 37px;
     font-family: sans-serif ;
     color: #ffffff;
     position: absolute; 
-    top: 120px; 
+    top: 135px; 
     left: 550px; 
     width: 100%; 
     animation: movebanner 1s 0.9 forwards;
